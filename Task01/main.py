@@ -43,3 +43,20 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# задание функции и условий теста
+def test():
+    result = "\nZebra - black line - " + str(Zebra() == {"Zebra - black line"})
+    result += "\nZebra - white line - " + str(Zebra() == {"Zebra - white line"})
+    result += "\nZebra - black line - " + str(Zebra() == "Zebra - black line")
+    result += "\nZebra - white line - " + str(Zebra() == "Zebra - white line")
+    result += "\nZebra - black line - " + str(Zebra() == "Zebra - black line")
+    result += "\nZebra - white line - " + str(Zebra() == "Zebra - white line")
+    # вывод результата
+    print(result)
+
+
+if __name__ == "__main__":
+    test()
+

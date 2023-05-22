@@ -8,7 +8,7 @@
 
 # объявляем класс
 class Zebra:
-    def __init__(self, name='Zebra', stripe=True):
+    def __init__(self, name="Zebra", stripe=True):
         self.__name = name
         self.__stripe = stripe
 
